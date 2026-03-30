@@ -48,3 +48,16 @@ let students = [
     { name: "Bob", age: 20 },
     { name: "Charlie", age: 21 }
 ]
+//write a one-liner using .map() to convert [{id:1}, {id:2}] to [1,2]
+//console.log([{id:1}, {id:2}].map(obj => obj.id)); 
+
+//let x=[0.09+0.01]
+//console.log(x);
+
+let arr = [1, 2, 3];
+arr[10]= 11;
+console.log(arr.length);
+
+const items =[1,2,3];
+items.push(5);
+console.log(items);
